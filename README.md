@@ -665,7 +665,7 @@ public int read(char cbuf[], int offset, int length) throws IOException {
 * 在不影响其他对象的情况下，以动态、透明的方式给单个对象添加职责。
 * 当对象的功能要求可以动态地添加，也可以再动态地撤销时。
 
-### 3.3.4 JDK源码解析
+### 3.3.3 JDK源码解析
 
 IO流中的包装类使用到了装饰者模式。BufferedInputStream，BufferedOutputStream，BufferedReader，BufferedWriter。
 
@@ -695,7 +695,7 @@ public class Demo {
 
 BufferedWriter使用装饰者模式对Writer子实现类进行了增强，添加了缓冲区，提高了写数据的效率。
 
-### 3.3.5 代理和装饰者的区别
+### 3.3.4 代理和装饰者的区别
 
 静态代理和装饰者模式的区别：
 
